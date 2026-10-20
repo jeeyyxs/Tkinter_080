@@ -49,3 +49,11 @@ for i in range(10):
     entry.grid(row=i, column=1, padx=15)
 
     entries.append(entry)
+
+    tk.Label(
+    frame_kiri,
+    text="Pilihan Jurusan Anda",
+    fg="white",
+    bg="#0d0b24",
+    font=("Arial", 10, "bold")
+).grid(row=10, column=0, pady=15)
