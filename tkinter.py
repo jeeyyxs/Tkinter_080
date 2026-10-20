@@ -38,3 +38,14 @@ for i in range(10):
         font=("Arial", 10)
     )
     label.grid(row=i, column=0, pady=5, sticky="w")
+
+    entry = tk.Entry(
+            frame_kiri,
+            width=10,
+            bg="#211e3d",
+            fg="white",
+            insertbackground="white"
+        )
+    entry.grid(row=i, column=1, padx=15)
+
+    entries.append(entry)
